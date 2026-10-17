@@ -13,7 +13,7 @@ Se publica como sitio estático en **Firebase Hosting** y consume la API Express
 3. `npm run dev` y abre `http://localhost:3000`.
 
 ```dotenv
-NEXT_PUBLIC_API_URL=https://capsule-corp-api-mc.onrender.com
+NEXT_PUBLIC_API_URL=https://capsule-corp-api-mc1.onrender.com
 ```
 
 `NEXT_PUBLIC_API_URL` se incrusta en el JavaScript del navegador durante el build, así que solo debe contener una URL pública, nunca contraseñas ni la cadena de conexión de PostgreSQL.

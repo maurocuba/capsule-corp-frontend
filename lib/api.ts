@@ -1,7 +1,7 @@
 // URL pública del backend. Se toma en el build desde NEXT_PUBLIC_API_URL;
 // si no está definida se usa el servicio publicado en Render.
 export const API_URL = (
-  process.env.NEXT_PUBLIC_API_URL || "https://capsule-corp-api-mc.onrender.com"
+  process.env.NEXT_PUBLIC_API_URL || "https://capsule-corp-api-mc1.onrender.com"
 ).replace(/\/$/, "");
 
 export type Producto = {
