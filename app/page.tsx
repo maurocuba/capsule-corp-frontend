@@ -193,7 +193,7 @@ export default function Home() {
               className="rounded-xl border border-slate-200 bg-white p-4 dark:border-slate-800 dark:bg-slate-900"
             >
               <p className="text-xs font-medium uppercase tracking-wide text-slate-500">{s.etiqueta}</p>
-              <p className={`mt-1 truncate text-2xl font-bold tabular-nums sm:text-3xl ${s.color}`}>
+              <p className={`mt-1 truncate text-2xl font-bold tabular-nums lg:text-3xl ${s.color}`}>
                 {cargando ? "–" : s.valor}
               </p>
             </div>
